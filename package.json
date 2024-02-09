@@ -1,0 +1,12 @@
+{
+  "name": "@anio-js-core-foundation/fn-measure-execution-time",
+  "version": "1.0.0",
+  "description": "Measure execution time of a function.",
+  "main": "index.mjs",
+  "author": "Anio Software <info@anio.software>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anio-js-core-foundation/fn-measure-execution-time.git"
+  }
+}
