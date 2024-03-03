@@ -1,4 +1,4 @@
-import fnMeasureExecutionTime from "./index.mjs"
+import fnMeasureExecutionTime from "./src/index.mjs"
 
 function myFunction() {
 	return new Promise(resolve => {

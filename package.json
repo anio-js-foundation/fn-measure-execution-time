@@ -1,12 +1,21 @@
 {
-  "name": "@anio-js-core-foundation/fn-measure-execution-time",
+  "name": "@anio-js-foundation/fn-measure-execution-time",
   "version": "1.0.0",
   "description": "Measure execution time of a function.",
-  "main": "index.mjs",
+  "main": "./dist/package.mjs",
   "author": "Anio Software <info@anio.software>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anio-js-core-foundation/fn-measure-execution-time.git"
-  }
+    "url": "git+https://github.com/anio-js-foundation/fn-measure-execution-time.git"
+  },
+  "devDependencies": {
+    "@anio-software/npm-package-bundler": "^1.0.0"
+  },
+  "scripts": {
+    "prepare": "./node_modules/.bin/npm-package-bundler ."
+  },
+  "files": [
+    "./dist/package.mjs"
+  ]
 }
