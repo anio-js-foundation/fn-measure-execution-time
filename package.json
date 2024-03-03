@@ -1,6 +1,6 @@
 {
   "name": "@anio-js-foundation/fn-measure-execution-time",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Measure execution time of a function.",
   "main": "./dist/package.mjs",
   "author": "Anio Software <info@anio.software>",
